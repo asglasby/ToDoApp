@@ -1,0 +1,11 @@
+﻿body {
+}
+
+.strikethrough {
+    text-decoration-line: line-through
+}
+
+.hideItem {
+    display: none
+
+}
