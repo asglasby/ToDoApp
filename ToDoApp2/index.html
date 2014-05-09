@@ -2,18 +2,21 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title></title>
+
+    <link href="Content/bootstrap.css" rel="stylesheet" />
     <link href="style.css" rel="stylesheet" />
 
 </head>
 <body>
     <p></p>
     <section id="todoAppContainer">
-        <input id="todoInput" type="text" placeholder="Enter your Todo Item" />
-        <button type="button" onclick="elementDoSomething();">Add Item</button>
+        <input class="input-lg" id="todoInput" type="text" placeholder="Enter your Todo Item" />
+        <button class="btn" type="button" onclick="elementDoSomething();">Add Item</button>
         <p></p>
         <ol id="todoUnorderedList"></ol>
     </section>
-
+    <script src="Scripts/jquery-1.9.1.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
     <script src="main.js"></script>
 </body>
 </html>

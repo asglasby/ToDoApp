@@ -10,10 +10,10 @@ var todoListArray = [];
 
 var elementDoSomething = function () {
     "use strict";
-    toDoCounter = toDoCounter + 1;
+    //toDoCounter = 0;
     var inputValue = document.getElementById("todoInput");
    
-    todoListArray.push(inputValue.value);
+    todoListArray.push(inputValue.value);// puts the document.getElementById value into the array.
 
     var todoListArray_lastEntry = todoListArray[todoListArray.length - 1];
 
